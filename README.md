@@ -1,6 +1,8 @@
-# React + Vite
+For this project I used "React + Vite"'s template and tailwind's CSS library for alot of the styling. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+If you want to make something similar to this, use "npm create vite", select react, and javascript. 
+I have a Notion page with my well documented experience with making this project, if you run into any issues hopefully I addressed some of them in the notes. 
+
 
 Currently, two official plugins are available:
 
