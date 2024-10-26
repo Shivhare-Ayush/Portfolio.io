@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Arjun;
+  src: url(./assets/Arjun.woff2);
+}
+@font-face {
+  font-family: Anzo1;
+  src: url(./assets/Anzo1.woff2);
+}
+@font-face {
+  font-family: Anzo2;
+  src: url(./assets/Anzo2.woff2);
+}
+html, body {
+  background-color: #0c0a09; /* Dark color to match your design */
+  color: white; /* Ensure the text color is readable */
+}
