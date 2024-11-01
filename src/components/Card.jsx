@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
-import trendsPreview from '../assets/trendsPreview.png'
+import { useState } from 'react' //React is not needed here
+import PropTypes from 'prop-types';
 
 function Card({ title, description, children, image, link }) {
+  
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpand = () => {
@@ -31,6 +32,14 @@ function Card({ title, description, children, image, link }) {
       {children}
     </div>
   )
+}
+
+Card.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  link: PropTypes.string,
+  children: PropTypes.node,
 }
 
 export default Card
