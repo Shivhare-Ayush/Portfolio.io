@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .grid-cols-1 {
+    background-image:
+      linear-gradient(to right, rgb(12, 10, 9) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(20 20 20) 1px, transparent 1px);
+    background-size: 2.5rem 2.5rem;
+    background-position: center center;
+  }
+  .grid-dots-1 {
+    background: 
+      radial-gradient(circle, transparent 1px, #0c0a09 1px);
+    background-size: 1rem 1rem;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 768px) {
+  .md\\:relative {
+    position: relative;
+  }
+  .md\\:h-auto {
+    height: auto;
+  }
+  .md\\:w-full {
+    width: 100%;
+  }
+  .md\\:flex-col {
+    flex-direction: column;
+  }
+  .md\\:overflow-y-auto {
+    overflow-y: auto;
+  }
+}
+
+
+
+@layer utilities{
+
+}
+
 @font-face {
   font-family: Arjun;
   src: url(./assets/Arjun.woff2);
