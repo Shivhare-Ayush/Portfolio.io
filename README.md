@@ -10,6 +10,13 @@ Whole'lotta icons:
 - Add socials
 - Add technologies
 - Add certifications
+
+Readability Buff
+- Figure out mouse tracking
+- fade out the background where the mouse is
+(Should be implemented on the page level)
+
+
 BUGS:
 - Mobile Support
 - This means making my website responsive.
