@@ -1,7 +1,7 @@
 //import React from 'react'
 import Card from './Card'
 import trendsPreview from '../assets/trendsPreview.png'
-import portfolio from '../assets/portfolio.png'
+import portfolio from '../assets/Portfolio.png'
 import TechTags from './TechTags'
 import Experience from './Experience.jsx'
 
