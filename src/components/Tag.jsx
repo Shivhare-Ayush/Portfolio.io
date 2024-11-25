@@ -1,4 +1,5 @@
-import React from 'react';
+//import React from 'react';
+import PropTypes from 'prop-types';
 // text-gray-800 for captions
 function Tag({ icon: Icon, title }) {
   return (
@@ -8,5 +9,8 @@ function Tag({ icon: Icon, title }) {
     </div>
   );
 }
-
+Tag.propTypes = {
+    icon: PropTypes.elementType.isRequired,
+    title: PropTypes.string.isRequired,
+};
 export default Tag;

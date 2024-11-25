@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import Page1 from './pages/Page1'
 import useMousePosition from './hooks/useMousePosition'
 

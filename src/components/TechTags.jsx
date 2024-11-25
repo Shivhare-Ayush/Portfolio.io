@@ -1,6 +1,7 @@
-import React from 'react';
+//import React from 'react';
 import { BiLogoJava, BiLogoJavascript, BiLogoTailwindCss, BiLogoReact, BiLogoTypescript, BiLogoPython, BiLogoNodejs, BiLogoGithub, BiLogoGit, BiLogoFigma } from 'react-icons/bi';
 import Tag from './Tag';
+import PropTypes from 'prop-types';
 
 const techStack = [
   { icon: BiLogoJava, title: 'Java' },
@@ -36,5 +37,7 @@ function TechTags({ techNames }) {
     </div>
   );
 }
-
+TechTags.propTypes = {
+  techNames: PropTypes.arrayOf(PropTypes.string),
+};
 export default TechTags;

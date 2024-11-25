@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react'; //React,
 import PropTypes from 'prop-types';
 import { BsArrowUpRight, BsArrowDownLeft, BsBoxArrowUpRight } from 'react-icons/bs';
 import TechTags from './TechTags';
